@@ -15,7 +15,7 @@ model UserPF {
   email     String   @unique
   hashPassword String
   telephone  String
-  cpf       String   @unique
+  cpf      String   @unique
   creationDate  DateTime @default(now())
   status    String   @default("ativo")
 
